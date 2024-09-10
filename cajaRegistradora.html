@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja Registradora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .total {
+            font-size: 1.5em;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Caja Registradora</h2>
+        <div class="form-group">
+            <label for="item">Artículo</label>
+            <input type="text" id="item" placeholder="Nombre del artículo">
+        </div>
+        <div class="form-group">
+            <label for="price">Precio</label>
+            <input type="number" id="price" placeholder="Precio del artículo">
+        </div>
+        <button class="button" onclick="agregarArticulo()">Agregar Artículo</button>
+        <div class="total" id="total">Total: 0.00 €</div>
+    </div>
+    <script src="Pseudocodigo/01-retos.js"></script>
+</body>
+</html>
