@@ -196,24 +196,41 @@
 // // 1. Soy Leyenda, +13
 // // 2. Rey León, +3
 // // 3. La Marca del Demonio +18
-// // 4. A todo Gas +10
+// // 4. A todo Gas +8
 
-// let nombre = '';
-// let edad = 18;
+// let peliculas = [
+//     {
+//         titulo: 'Soy Leyenda',
+//     edad: 13,
+//     },
+//     {
+//         titulo: 'Rey León',
+//     edad: 3,
+//     },
+//     {
+//         titulo: 'La Marca del Demonio',
+//     edad: 18,
+//     },
+//     {
+//         titulo: 'A todo Gas',
+//     edad: 8,
+//     }
+// ]
+// let edadPersona = 5;
+// let peliculasAptaUsuario = [];
 
-// if (edad <= 3 || edad <=9) {
-//     console.log(`${nombre} Solo puedes ver El rey león`);
 
-// } else if (edad <=10 && edad <= 13) {
-//     console.log(`${nombre} Solo puedes ver El rey león y a todo gas`);
+// for (let i = 0; i < peliculas.length; i++) {
+//     let peliculasAptas = peliculas[i]
+//     if (edadPersona >= peliculasAptas.edad){
+//         peliculasAptaUsuario.push(peliculasAptas)
+//     }else if(edadPersona <= 3){
+//         console.log('Edad mínima requerida 3 años');
+        
+//     }
+// }
 
-
-// } else if (edad <=13 || edad <= 17) {
-//     console.log(`${nombre} Solo puedes ver El rey león, a todo gas y Soy leyenda`);
-
-// } else if (edad >= 18) {
-//     console.log(`${nombre} eres mayor de edad`);
-
-// } else {
-//     console.log(`El bebe es demasiado pequeño`);
+// for(let i = 0; i < peliculasAptaUsuario.length; i++){
+//     console.log(peliculasAptaUsuario[i].titulo);
+    
 // }
