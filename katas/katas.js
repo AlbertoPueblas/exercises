@@ -234,3 +234,16 @@
 //     console.log(peliculasAptaUsuario[i].titulo);
     
 // }
+
+// //-----------------------------------------------------------------------------------------------
+
+// // Generar de forma automática la tabla de multiplicar del 5 en una
+// // <table> usando:
+
+// // ● document.write( );
+// // ● bucle for
+// document.write('<table>')
+// for (let i = 1; i <= 10; i++) {
+//     document.write(`<tr><td>5 x ${i} = ${i * 5}</td></tr>`)   
+// }
+// document.write(`</table>`)
